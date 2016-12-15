@@ -1,0 +1,14 @@
+sudo apt-get update
+
+# rqt_graph
+sudo apt-get install ros-kinetic-rqt
+sudo apt-get install ros-kinetic-rqt-common-plugins
+
+roscore &
+
+rosrun rqt_graph rqt_graph
+
+roscore &
+
+
+

@@ -1,14 +1,18 @@
+# rqt_graph will display a graph of the ROS nodes
+# rqt_graph will only work when running on a Master node
+ 
 sudo apt-get update
 
 # rqt_graph
 sudo apt-get install ros-kinetic-rqt
 sudo apt-get install ros-kinetic-rqt-common-plugins
 
-roscore &
+# Start a Master node
+# roscore &
 
+# View the graph on the Master node
 rosrun rqt_graph rqt_graph
 
-roscore &
 
 
 

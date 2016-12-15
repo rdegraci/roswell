@@ -1,0 +1,4 @@
+# Install rosbridge, a websocket bridge to ROS that uses JSON
+#
+
+sudo apt-get install ros-kinetic-rosbridge-server
